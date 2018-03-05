@@ -1,0 +1,9 @@
+.jumbotron {
+  color: magenta;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.footer {
+  text-align: center;
+}
