@@ -1,0 +1,70 @@
+    
+
+body {
+    background-image: url("../img/av3.jpg");
+    background-size: cover;
+    /* height: auto; */
+    /* width: auto; */
+    background-repeat: no-repeat;
+    font-family: 'Cookie', cursive;
+ font-family: 'Dosis', sans-serif;
+    /* background-color: black; */
+}
+
+.btn {
+border-radius: 3px;
+font-family: sans-serif;
+color: #036A81;
+font-size: 100%;
+padding: 10px 20px;
+border: solid white;
+margin-left: 35%;
+/* text-transform: uppercase; */
+/text-decoration: none
+}
+.btn1 {
+    border-radius: 3px;
+    font-family: sans-serif;
+    color: #036A81;
+    font-size: 100%;
+    padding: 10px 20px;
+    border: solid white;
+    margin-left: 55%;
+    text-decoration: none;
+}
+.btn1 .btn:hover {
+color: #fff;
+border: solid #fff 5px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+header {
+      /*background-color: #070802;*/
+      /*background-color: rgba(0, 0, 0, .8)*/;
+      /*margin:5%;*/
+     color: red;
+     text-align: center;
+     font-family: 'Dosis', sans-serif;
+}
+p {
+    color: white;
+    background-color: white;
+    background-color: rgba(1, 1, 1, .5);
+    margin:5%;
+    text-align: center;
+}
+.col-md-6 {
+    padding-left: 3%;
+}
+h2 {
+    padding-left: 10%
+}
+
+.form-control {
+	background-color: transparent;
+}
