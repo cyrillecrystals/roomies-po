@@ -1,4 +1,13 @@
-var user (name, contact, location, listing, identity) { 
+
+
+
+
+
+
+
+
+
+/*var user (name, contact, location, listing, identity) { 
        this.name=name;
        this.contact=contact;
        this.location=location;
@@ -24,4 +33,4 @@ var listing=location , cost , image , name){
  	this.cost=cost;
  	this.image=image;
  	this.name=pname;
- }
+ }*/cd 
