@@ -28,30 +28,32 @@
 	         	<div class= "listings">
 	                <div class= "col-md-6" id = "lst6">
 	                   <a href="#"><h3 class="namelinks">Noni Waithera</h3>
-	                   <h4 class="namelinks">Jamhuri</h4></a>
+	                   <h4 class="namelinks">Jamhuri</h4cs ></a>
 	                </div>
 	            </div>
 	            <div class= "listings">
 		            <div class= "col-md-6" id = "lst8">
 		                <a href = "a"><h3 class="namelinks">Adele Adhiambo</h3>
-		                <h4 class="namelinks">Jamhuri</h4></a>
+		                   		<h4 class="namelinks">Jamhuri</h4></a>
 		            </div>
-		        </div>
-                <div class= "listings">
+		        
+	         	<div class= "listings">
 	                <div class= "col-md-6" id = "lst9">
-	                	<a href ="a"><h3 class="namelinks">Samuel Muiruri</h3>
-	                   	<h4 class="namelinks">Jamhuri</h4></a>
+	                <a href ="a"><h3 class="namelinks">Samuel Muiruri</h3>
+	                   		<h4 class="namelinks">Jamhuri</h4></a>
 	                </div>
-	            </div>
-	            <div class= "listings">
+	         </div>
+	         	<div class= "listings">
 	                <div class= "col-md-6" id = "lst11">
-	                    <a href="#"><h3 class="namelinks">Zunila Olanna</h3>
-	                   <h4 class="namelinks">Jamhuri</h4></a>
+	                   <h3 class="namelinks">Zunila Olanna</h3>
+	                   		<h4 class="namelinks">Jamhuri</h4>
 	                </div>
 	         	</div>
-	        </div>
-	    </div>
-	</div>    
+	    		</div>
+	    	</div>
+		
+		</div>
+</div>
 
 	<script src="js/jquery 3.3.1.js"></script>
 	<script src="js/scripts.js"></script>

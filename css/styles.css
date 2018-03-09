@@ -6,36 +6,66 @@ body {
     background-repeat: no-repeat;
     font-family: 'Cookie', cursive;
     font-family: 'Dosis', sans-serif;
+    /*font-family: 'Caesar Dressing', cursive;*/
 
 }
+/*Title*/
+
+h1{
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(193, 66, 66, 0.5);
+	align:justify; 
+	border: 5px solid gba(193, 66, 66, 0.5);
+	border: 
+}
+
+/*logo*/
+
+#logo {
+	height:100px;
+	width:100px;
+}
+
+/*header*/
 header {
 	font-family: 'Dosis', sans-serif;
 	font-size: 50px;
 	background-color: rgba(33,15,186 0.5); 
 	text-align: center;
-	color: #0fa8ba	; 	;
-	padding: 1% ;
+	color: red;
+	
 	margin: 5%;
-}
-
- h1{
-	text-decoration: underline;
-	font-weight: bolder;
-	font-size: 50px;
-	border: 5px solid #0fa8ba;
-	color: #0fa8ba;
-	margin-left: 35%;
-	margin-right: 40%;
-
 }
 header p{
 	font-size: 30px;
 	text-decoration: none;
 	font-weight: regular;
+	color: white;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin:5%;
+    text-align: center;
 }
-.col-md-4 {
+
+/*navigation*/
+.col-md-offset-12{
+	align:center;
+	padding-left: 10px;
+}
+.nav-link {
+	 padding-right: 10px;
+     border: none;
+     font-size: 30px;
+}
+
+/*buttons*/
+/*.btn {
 	
-	color: #036A81;
+	color: red;
 	font-size: 35px;
 	padding: 10px 20px;
 	border: solid white;
@@ -46,49 +76,134 @@ header p{
 .btn1 .btn:hover {
 				color: #fff;
 				border: solid #fff 5px;
+}*/
+.col-md-9 {
+  padding-left: 40%;
 }
-p {
-    color: white;
-    background-color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin:5%;
-    text-align: center;
+
+input[type=text], [type=email] {
+	background-color: transparent;
+	width: 60%;
 }
-/*.col-md-6 {
-    padding-left: 3%;
+
+input[type=number], [type=password] {
+	background-color: transparent;
+	width: 60%;
 }
+.side-b{
+	float: center
+}
+/* .side-a{
+	float: left;
+} */
+.col-md-6 {
+  padding-left: 3%;
+}
+
 h2 {
-    padding-left: 10%
+  padding-left: 40%;
 }
 
 .form-control {
-	background-color: transparent;
+  background-color: inherit;
 }
 
-/*.landing {
-	position: absolute;
-	left: -999999px;
-}*/
+.footer {
+  /* position: fixed;  */
+bottom: 0;
+color: red;
+text-align: center;
+font-size: 150%;
+}
 
-
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+col-md-4 a{
+	padding: 5%;
+	border: none;
+}
 /* listings*/
 .col-md-6{
 		margin: 0;
 		height: auto;
 }
-
-#lst6{
-	background-image: url("../img/lst6-c.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+/*FOrm*/
+.form-simple .font-medium {
+  font-size: 2.0rem;
+  padding-bottom: 25%
 }
 
-#lst7{
-	background-image: url("../img/lst8.jpeg");
-}
-.listings {
-	background-color: #000;
+.form-simple .header {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
 }
 
+.form-simple input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ff3547;
+  -webkit-box-shadow: 0 1px 0 0 #ff3547;
+  box-shadow: 0 1px 0 0 #ff3547;
+}
 
+.form-simple input[type=textpadding-bottom: 50%;]:focus:not([readonly])+label {
+  color: #4f4f4f;
+}
+
+.form-simple input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #ff3547;
+  -webkit-box-shadow: 0 1px 0 0 #ff3547;
+  box-shadow: 0 1px 0 0 #ff3547;
+}
+
+.form-simple input[type=password]:focus:not([readonly])+label {
+  color: #4f4f4f;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}	  
+
+color: #0fa8ba	;
 #070802
