@@ -12,65 +12,31 @@
       <h2 style=>Create an Account</h2>
 
        <div class="row">
-         <div class="col-md-6">
-          <div id="first-name">
-             <div class="form-group">
-               <label for="firstName">First Name</label>
-               <input type="text" class="form-control" id="firstName">
-             </div>
-             </div>
-             <div id="last-name">
-             <div class="form-group">
-               <label for="lastName">Last Name</label>
-               <input type="text" class="form-control" id="lastName">
-             </div>
-             </div>
-             <div id="Username">
-             <div class="form-group">
-               <label for="userName">Username</label>
-               <input type="text" class="form-control" id="Username">
-             </div>
-             </div>
-             <div id="email">
-             <div class="form-group">
-               <label for="email">Email</label>
-               <input type="text" class="form-control email">
-             </div>
-             </div>
+    <div class="col-md-9">
 
-             <div id="phone-number">
-             <div class="form-group">
-               <label for="phone-number">Phone Number</label>
-               <input type="text" class="form-control phone-number">
-             </div>
-             </div>
+  <form name="myForm" action="listings.html">
+    Name:<br>
+    <input type="text" name="fname" required maxlength="40"><br><br>
+    E-mail: <input type="email" name="email" required><br><br>
+    Gender:<br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+    Phone Number:<br>
+    <input type="number" name="number" required><br><br>
+    School Info:<br>
+    <input type="text" name="info" required maxlength="40"><br><br>
+    Emergency Number:<br>
+    <input type="number" name="number" required><br><br>
+    Physical Address:<br>
+    <input type="text" name="text" required><br><br>
+    Password:<br>
+    <input type="password" name="password" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
 
-             <div id="school-info">
-             <div class="form-group">
-               <label for="school-info">School</label>
-               <input type="text" class="form-control school-info">
-             </div>
-             </div>
-
-             <div id="emergency-number">
-             <div class="form-group">
-               <label for="emergency-number">Emergency Number</label>
-               <input type="text" class="form-control emergency-number">
-             </div>
-             </div>
-
-             <div id="physical-address">
-             <div class="form-group">
-               <label for="physical-address">Physical Address</label>
-               <input type="text" class="form-control physical-address">
-             </div>
-             </div>
-
-             <div id="password">
-             <div class="form-group">
-               <label for="password">Password</label>
-               <input type="text" class="form-control password">
-             </div>
+      
+    </div>
+  </div>
              </div>
 
      <div class= "row">

@@ -1,13 +1,19 @@
     
-
 body {
     background-image: url("../img/av3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Cookie', cursive;
     font-family: 'Dosis', sans-serif;
     /*font-family: 'Caesar Dressing', cursive;*/
+  }
 
+#imagesSlider {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 100;
 }
 /*Title*/
 
@@ -22,150 +28,116 @@ h1{
 	border: 5px solid gba(193, 66, 66, 0.5);
 	border: 
 }
-
+.navigation{
+  font-size: 20px;
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.formback{
+      background-color: rgba(0, 0, 0, 0.5);
+}
+.submit{
+  background-color: rgba(193, 66, 66, 0.5);
+}
 /*logo*/
 
-#logo {
+.logo {
 	height:100px;
 	width:100px;
 }
 
+
 /*header*/
-header {
+/*header {
 	font-family: 'Dosis', sans-serif;
 	font-size: 50px;
 	background-color: rgba(33,15,186 0.5); 
 	text-align: center;
 	color: red;
-	
 	margin: 5%;
+}*/
+
+header {
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+	background-color: rgba(33,15,186 0.5); 
+	text-align: center;
+	padding: 1% ;
 }
 header p{
-	font-size: 30px;
+	font-size: 20px;
 	text-decoration: none;
 	font-weight: regular;
 	color: white;
-    background-color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+  
+    
     margin:5%;
     text-align: center;
 }
 
 /*navigation*/
-.col-md-offset-12{
-	align:center;
-	padding-left: 10px;
+/*form*/
+h3 {
+  color:#fff;
 }
-.nav-link {
-	 padding-right: 10px;
-     border: none;
-     font-size: 30px;
+form{
+     color:#fff;
 }
-
-/*buttons*/
-/*.btn {
-	
-	color: red;
-	font-size: 35px;
-	padding: 10px 20px;
-	border: solid white;
-	border-radius: 3px;
-	margin-left: 15%;
-	text-decoration: none
-}
-.btn1 .btn:hover {
-				color: #fff;
-				border: solid #fff 5px;
-}*/
-.col-md-9 {
-  padding-left: 40%;
-}
-
-input[type=text], [type=email] {
-	background-color: transparent;
-	width: 60%;
-}
-
-input[type=number], [type=password] {
-	background-color: transparent;
-	width: 60%;
-}
-.side-b{
-	float: center
-}
-/* .side-a{
-	float: left;
-} */
-.col-md-6 {
-  padding-left: 3%;
-}
-
-h2 {
-  padding-left: 40%;
-}
-
-.form-control {
-  background-color: inherit;
-}
-
-.footer {
-  /* position: fixed;  */
-bottom: 0;
-color: red;
-text-align: center;
-font-size: 150%;
-}
-
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 65px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-col-md-4 a{
-	padding: 5%;
-	border: none;
-}
-/* listings*/
-.col-md-6{
-		margin: 0;
-		height: auto;
-}
-/*FOrm*/
-.form-simple .font-medium {
-  font-size: 2.0rem;
+form-simple {
+  font-size: 30px;
   padding-bottom: 25%
 }
-
+.form-simple.side-b{
+	font-size: 30px;
+    color: rgb(193, 66, 66,);
+    background-color: transparent;
+}
 .form-simple .header {
-  border-top-left-radius: .3rem;
-  border-top-right-radius: .3rem;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 3px;
 }
 
 .form-simple input[type=text]:focus:not([readonly]) {
-  border-bottom: 1px solid #ff3547;
+  border-bottom: 10px solid #ff3547;
   -webkit-box-shadow: 0 1px 0 0 #ff3547;
   box-shadow: 0 1px 0 0 #ff3547;
+  background-color: transparent;
 }
 
 .form-simple input[type=textpadding-bottom: 50%;]:focus:not([readonly])+label {
-  color: #4f4f4f;
+  color: rgb(193, 66, 66,);
+  background-color: transparent;
+  
 }
 
 .form-simple input[type=password]:focus:not([readonly]) {
-  border-bottom: 1px solid #ff3547;
+  border-bottom: 4px solid #ff3547;
   -webkit-box-shadow: 0 1px 0 0 #ff3547;
   box-shadow: 0 1px 0 0 #ff3547;
+  background-color: transparent;
 }
 
 .form-simple input[type=password]:focus:not([readonly])+label {
-  color: #4f4f4f;
+  color:rgb(193, 66, 66,);
+  background-color: transparent;
+}
+input [type= text],[type= email]{
+	background-color:transparent;
+	color: rgb(193, 66, 66,);
+	width:60%;
+}
+input [type= number],[type= password]{
+	background-color:transparent;
+	color: rgb(193, 66, 66,);
+	width:60%;
+}
+.userimg {
+	float: left;
+	color: #fff;
 }
 
-/* Add a hover effect if you want */
+/*social-media links*/
 .fa:hover {
     opacity: 0.7;
 }
@@ -203,7 +175,27 @@ col-md-4 a{
 .fa-pinterest {
   background: #cb2027;
   color: white;
-}	  
+}
+
+.user{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Listings*/
+.user{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.contact{
+     background-color: #996666;
+     color:fff;
+}
+/*listings contactform*/
+.contactform{
+  display:none;
+}
+.
 
 color: #0fa8ba	;
 #070802
