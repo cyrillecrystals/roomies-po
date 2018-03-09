@@ -1,0 +1,153 @@
+body {
+	 font-family: 'Cookie', cursive;
+     font-family: 'Dosis', sans-serif;
+}
+
+
+.jumbotron {
+	background-image: url("../img/av3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
+.logo {
+	height:100px;
+	width:100px;
+}
+
+header {
+	background-image: url("../img/av3.jpg");
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+	background-color: rgba(33,15,186 0.5); 
+	text-align: center;
+	padding: 1% ;
+}
+
+h1 {
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(193, 66, 66, 0.5);
+	align:justify; 
+	border: 5px solid gba(193, 66, 66, 0.5);
+	 
+}
+
+.logo {
+	height:100px;
+	width:100px;
+}
+.col-md-4 {
+	
+	color: rgb(193, 66, 66,);
+	font-size: 35px;
+	padding: 10px 20px;
+	border: solid white;
+	border-radius: 3px;
+	margin-left: 15%;
+	text-decoration: none
+}
+.col-md-4 a {
+	color: rgb(33,15,186);
+}
+
+/* listings*/
+.col-md-6{
+		margin: 0;
+		height: auto;
+}
+
+.lstg {
+     position: relative;
+     height: 100%;
+     width:100%;
+     
+}
+.lstg a{
+     border: 2px solid rgb(33,15,186);
+     background-color: rgba(0 , 0, 0, 0.5);
+     
+}
+
+.namelinks {
+	position: relative;
+    text-align: center;
+    padding: 10%;
+    color: rgb(193, 66, 66,);
+}
+
+
+#lst6{
+	background-image: url("../img/lst6-c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+#lst7{
+	background-image: url("../img/lst7.jpeg");
+	background-repeat: no-repeat;
+	background-height: 100%;
+	background-width: 100%;
+	
+
+}
+
+#lst8 {
+	background-image: url("../img/lst8.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+    
+}
+
+#lst9 {
+	background-image: url("../img/lst9.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+#lst11 {
+	background-image: url("../img/av9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+#lst15 {
+	background-image: url("../img/lst15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst17 {
+	background-image: url("../img/lst17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst18{
+	background-image: url("../img/lst18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst16{
+	background-image: url("../img/lst16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+/*Contact form*/
+.contactform{
+	dis
+}
+
+color: #0fa8ba	;
+#070802
