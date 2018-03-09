@@ -1,12 +1,39 @@
+/*var imageSlider = document.getElementById('imagesSlider');
+var image = imageSlider.style.backgroundImage;
+
+var images =["url('img/av5.jpg')", "url('img/av8.jpg')" , "url('images/pic4.jpeg')", "url('img/av9.jpg')" ]
+var counter  = 0;
 
 
+function carousel(){
 
+  imageSlider.style.backgroundImage = images [counter];
+  counter++;
+  if (counter>3){
+    counter = 0;
+  }
+}*/
 
+function showContact() {
+    var x = document.getElementById("contact");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
+/*$(document).ready(function(
+    function showContact() {
+	document.getElementById("contact").show("contactform");
+};*/
+/*document.getElementById('contact').onclick=
 
-
-
-
+$(document).ready(function() {
+        $(".contact").click(function() {
+          $(".contactform").show();
+        });
+      });*/
 /*var user (name, contact, location, listing, identity) { 
        this.name=name;
        this.contact=contact;

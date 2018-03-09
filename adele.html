@@ -12,7 +12,9 @@
         <div class = "container"> 
         <!--Heading-->
         <header>
-            <h1>ROOMIES<img class="logo" src="img/logo8.png">.com</h1>
+            <h1>ROOMIES<img class="logo" src="img/logo8.png">.com</br><a class="navigation" href="index.html">HOME</a> 
+            <a class= "navigation" href="listings.html">ROOMSHARE</a></h1>
+            
         </header>
       <!--listings--> 
        <div class = "user">
@@ -22,7 +24,43 @@
             </p>
             <p><strong>Property Stats<strong></br><strong>Area:</strong>Kilimani</br><strong>Room-mates:</strong>4</br><strong>Rent<strong>:8,500ksh</br><strong>Starting from:</strong> April.
             </p>
-            <button class= "contact" onclick="showContact()">Contacts</button>
+            <button onclick="showContact()" id="contact">Contacts</button>
+
+            <!--Contact Form-->
+            
+                <!-- Default form contact -->
+                <form class= "contactform">
+                    <p class="h4 text-center mb-4">Write to them</p>
+
+                    <!-- Default input name -->
+                    <label for="defaultFormContactNameEx" class="grey-text">Your name</label>
+                    <input type="text" id="defaultFormContactNameEx" class="form-control">
+                    
+                    <br>
+
+                    <!-- Default input email -->
+                    <label for="defaultFormContactEmailEx" class="grey-text">Your email</label>
+                    <input type="email" id="defaultFormContactEmailEx" class="form-control">
+
+                    <br>
+
+                    <!-- Default input subject -->
+                    <label for="defaultFormContactSubjectEx" class="grey-text">Subject</label>
+                    <input type="text" id="defaultFormContactSubjectEx" class="form-control">
+
+                    <br>
+                    
+                    <!-- Default textarea message -->
+                    <label for="defaultFormContactMessageEx" class="grey-text">Your message</label>
+                    <textarea type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+
+                    <div class="text-center mt-4">
+                        <button class="btn btn-outline-warning" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+                    </div>
+                </form>
+                <!-- Default form contact -->
+                      
+
        </div>
       </div>
 

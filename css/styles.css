@@ -1,5 +1,4 @@
     
-
 body {
     background-image: url("../img/av3.jpg");
     background-size: cover;
@@ -8,8 +7,8 @@ body {
     font-family: 'Cookie', cursive;
     font-family: 'Dosis', sans-serif;
     /*font-family: 'Caesar Dressing', cursive;*/
+  }
 
-}
 #imagesSlider {
   height: 100vh;
   background-repeat: no-repeat;
@@ -28,6 +27,12 @@ h1{
 	align:justify; 
 	border: 5px solid gba(193, 66, 66, 0.5);
 	border: 
+}
+.navigation{
+  font-size: 20px;
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*logo*/
@@ -68,7 +73,12 @@ header p{
 
 /*navigation*/
 /*form*/
-
+h3 {
+  color:#fff;
+}
+form{
+     color:#fff;
+}
 form-simple {
   font-size: 30px;
   padding-bottom: 25%
@@ -176,6 +186,11 @@ input [type= number],[type= password]{
      background-color: #996666;
      color:fff;
 }
+/*listings contactform*/
+.contactform{
+  display:none;
+}
+
 
 color: #0fa8ba	;
 #070802
