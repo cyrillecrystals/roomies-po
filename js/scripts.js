@@ -14,14 +14,30 @@ function carousel(){
   }
 }*/
 
-function showContact() {
+var imageSlider = document.getElementById('imagesSlider');
+
+var images =["url('../roomies-po/img/lst6-c.jpeg')" , "url('..roomies-po')" "url('../roomies-po/img/lst7.jpeg')" , "url('../roomies-po/img/av12.jpg')" ,"url('../roomies-po/img/av6.jpg')","url('../roomies-po/img/av9.jpg')"];
+var counter = 0;
+
+function carousel(){
+imageSlider.style.backgroundImage = images[counter];
+counter++;
+if(counter > 5){
+   counter = 0;
+}
+}
+setInterval(carousel, 3000);
+
+
+
+/*function showContact() {
     var x = document.getElementById("contact");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
     }
-}
+}*/
 
 /*$(document).ready(function(
     function showContact() {

@@ -6,15 +6,7 @@ body {
     background-attachment: fixed;
     font-family: 'Cookie', cursive;
     font-family: 'Dosis', sans-serif;
-    /*font-family: 'Caesar Dressing', cursive;*/
   }
-
-#imagesSlider {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  z-index: 100;
-}
 /*Title*/
 
 h1{
@@ -26,7 +18,6 @@ h1{
 	background-color: rgba(193, 66, 66, 0.5);
 	align:justify; 
 	border: 5px solid gba(193, 66, 66, 0.5);
-	border: 
 }
 .navigation{
   font-size: 20px;
@@ -36,6 +27,8 @@ h1{
 }
 .formback{
       background-color: rgba(0, 0, 0, 0.5);
+      padding:30%;
+      float:center;
 }
 .submit{
   background-color: rgba(193, 66, 66, 0.5);
@@ -46,17 +39,6 @@ h1{
 	height:100px;
 	width:100px;
 }
-
-
-/*header*/
-/*header {
-	font-family: 'Dosis', sans-serif;
-	font-size: 50px;
-	background-color: rgba(33,15,186 0.5); 
-	text-align: center;
-	color: red;
-	margin: 5%;
-}*/
 
 header {
 	font-family: 'Dosis', sans-serif;
