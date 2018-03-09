@@ -34,7 +34,12 @@ h1{
   padding-left: 50px;
   padding-right: 50px;
 }
-
+.formback{
+      background-color: rgba(0, 0, 0, 0.5);
+}
+.submit{
+  background-color: rgba(193, 66, 66, 0.5);
+}
 /*logo*/
 
 .logo {
@@ -65,8 +70,8 @@ header p{
 	text-decoration: none;
 	font-weight: regular;
 	color: white;
-    background-color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+  
+    
     margin:5%;
     text-align: center;
 }
@@ -190,7 +195,7 @@ input [type= number],[type= password]{
 .contactform{
   display:none;
 }
-
+.
 
 color: #0fa8ba	;
 #070802
