@@ -11,7 +11,10 @@ body {
     background-position: center center;
     margin: 0;
 }
-
+.logo {
+	height:100px;
+	width:100px;
+}
 
 header {
 	background-image: url("../img/av3.jpg");
@@ -67,6 +70,7 @@ h1 {
 }
 .lstg a{
      border: 2px solid rgb(33,15,186);
+     background-color: rgba(0 , 0, 0, 0.5);
      
 }
 
@@ -115,6 +119,32 @@ h1 {
     background-repeat: no-repeat;
     color: red;
 }
+
+#lst15 {
+	background-image: url("../img/lst15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst17 {
+	background-image: url("../img/lst17.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst18{
+	background-image: url("../img/lst18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+#lst16{
+	background-image: url("../img/lst16.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+
 
 color: #0fa8ba	;
 #070802

@@ -10,6 +10,12 @@ body {
     /*font-family: 'Caesar Dressing', cursive;*/
 
 }
+#imagesSlider {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 100;
+}
 /*Title*/
 
 h1{
@@ -160,8 +166,16 @@ input [type= number],[type= password]{
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-
+/*Listings*/
+.user{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.contact{
+     background-color: #996666;
+     color:fff;
+}
 
 color: #0fa8ba	;
 #070802
